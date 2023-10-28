@@ -1,0 +1,29 @@
+name: text_recognition_flutter
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tesseract_ocr: ^0.4.23
+  google_ml_text_recognizer: ^0.0.3
+  google_mlkit_text_recognition: ^0.8.1
+  image_picker: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/tessdata/
